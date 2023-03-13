@@ -4,7 +4,7 @@ const hasHobbies = true;
 
 age = 30;
 
-function summerizeUser(userName, userAge, userHasHobbies){
+const summerizeUser = (userName, userAge, userHasHobbies) => {
     return (
       "Name is " +
       userName +
@@ -14,6 +14,17 @@ function summerizeUser(userName, userAge, userHasHobbies){
       userHasHobbies
     );
 }
+
+const add = (a, b) => a+b;
+
+const addOne = a => a + 1;
+
+const addRandom = () => 1 + 2;
+
+console.log(add(1,2));
+console.log(addOne(1));
+console.log(addRandom());
+
 
 console.log(summerizeUser(name, age, hasHobbies));
 
