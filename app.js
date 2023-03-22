@@ -5,8 +5,8 @@ const path = require('path');
 const app = express();
 
 //Setting pug as view engine
-app.set('view engine', 'pug');
-app.set('views', 'views');
+app.set("view engine", "pug");
+app.set("views", "views");
 
 
 const adminData = require('./routes/admin');
